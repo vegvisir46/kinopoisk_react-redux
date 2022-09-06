@@ -2,7 +2,6 @@
   "name": "kinopoisk-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vegvisir46.github.io/kinopoisk_react-redux/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",
@@ -26,8 +25,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
