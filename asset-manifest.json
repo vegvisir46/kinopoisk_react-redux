@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kinopoisk_react-redux/static/css/main.2384691e.css",
-    "main.js": "/kinopoisk_react-redux/static/js/main.167e4b29.js",
+    "main.js": "/kinopoisk_react-redux/static/js/main.edc57600.js",
     "static/media/giphy.gif": "/kinopoisk_react-redux/static/media/giphy.48b97173a2e8d3e6f425.gif",
     "static/media/free-icon-movie-camera-1026842.png": "/kinopoisk_react-redux/static/media/free-icon-movie-camera-1026842.ea483e0a099a9658c92c.png",
     "static/media/icons8-vk-circled.svg": "/kinopoisk_react-redux/static/media/icons8-vk-circled.d70d821b29af178088592a69714b8db5.svg",
@@ -10,10 +10,10 @@
     "static/media/icons8-instagram.svg": "/kinopoisk_react-redux/static/media/icons8-instagram.e20c05519067291ec17f3eef21f23a53.svg",
     "index.html": "/kinopoisk_react-redux/index.html",
     "main.2384691e.css.map": "/kinopoisk_react-redux/static/css/main.2384691e.css.map",
-    "main.167e4b29.js.map": "/kinopoisk_react-redux/static/js/main.167e4b29.js.map"
+    "main.edc57600.js.map": "/kinopoisk_react-redux/static/js/main.edc57600.js.map"
   },
   "entrypoints": [
     "static/css/main.2384691e.css",
-    "static/js/main.167e4b29.js"
+    "static/js/main.edc57600.js"
   ]
 }
