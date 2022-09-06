@@ -16,13 +16,13 @@ function Top({activeLink}) {
   const dispatch = useDispatch();  
   const {page, topList, totalTop, isLoaded} = useSelector(({top}) => top);
   const nameTop = () => {
-    if (activeLink === '/top-250best') {
+    if (activeLink === '/kinopoisk_react-redux/top-250best') {
       return 'TOP_250_BEST_FILMS'
     };
-    if (activeLink === '/top-100popular') {
+    if (activeLink === '/kinopoisk_react-redux/top-100popular') {
       return 'TOP_100_POPULAR_FILMS'
     };
-    if (activeLink === '/top-await') {
+    if (activeLink === '/kinopoisk_react-redux/top-await') {
       return 'TOP_AWAIT_FILMS'
     };
   };
