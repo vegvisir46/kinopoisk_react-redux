@@ -70,7 +70,7 @@ function Main() {
         {movie.length !== 0 
           ? <div className='main'>
             {movie.map(item => 
-            <Link  to={`films/${item.kinopoiskId}`}
+            <Link  to={`/films/${item.kinopoiskId}`}
               key={`${item.kinopoiskId}_${item.year}`}
               >
               <FilmCartMenu onClickid={onClickid}

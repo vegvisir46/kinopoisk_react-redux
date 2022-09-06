@@ -20,10 +20,10 @@ function App() {
       <Header />
       <div className='content'>
         <Routes>
-          <Route path='/kinopoisk_react-redux/' element={<Main />} exact/>
-          <Route path={`/kinopoisk_react-redux/films/${id}`} element={<MoviePage />} exact/>
-          <Route path={`/kinopoisk_react-redux/staff/${staffId}`} element={<Person staffId={staffId}/>} exact/>
-          <Route path={activeLink} element={activeLink !== `/kinopoisk_react-redux/premieres`
+          <Route path='/' element={<Main />} exact/>
+          <Route path={`/films/${id}`} element={<MoviePage />} exact/>
+          <Route path={`/staff/${staffId}`} element={<Person staffId={staffId}/>} exact/>
+          <Route path={activeLink} element={activeLink !== `/premieres`
             ? <Top activeLink={activeLink}/>
             : <Premieres activeLink={activeLink}/>}/>
         </Routes>

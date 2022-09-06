@@ -30,7 +30,7 @@ function Header() {
     <div className='header-wrapper'>
     <header className='header'>
       <div className='header-menu'>
-        <Link to={{pathname: `/kinopoisk_react-redux/`}}>
+        <Link to={{pathname: `/`}}>
           <img src={menu} alt='Меню'/>
           <p>MovieSearch</p>
         </Link>
@@ -39,7 +39,7 @@ function Header() {
               ? 'header-menu-item choice' 
               : 'header-menu-item'}
               onClick={() => onClickPage(null)}>
-          <Link to={`/kinopoisk_react-redux/`}>Главная</Link>
+          <Link to={`/`}>Главная</Link>
           </li>
           {menuList && menuList.map((item, index) => (
             <li className={
