@@ -20,7 +20,7 @@ function MoviePageStats({moviePage}) {
     {moviePage.ratingAgeLimits !== null
       ? <div className='movie-stats-item'>
           <span>Возраст</span>
-          <p>{moviePage.ratingAgeLimits.replace(/[a-zа-яё]/gi, '')}+</p>
+          <p>{moviePage.ratingAgeLimits}+</p>
         </div>
       : ''}
     {moviePage.type === 'FILM' 
