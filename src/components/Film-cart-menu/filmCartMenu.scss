@@ -1,0 +1,45 @@
+.film-cart-menu {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  text-align: left;
+  width: 250px;
+}
+
+.film-cart-img-block {
+  line-height: 0;
+}
+
+.film-cart-point {
+  position: relative;
+  top: -350px;
+  left: 8px;
+  color: #fff;
+  background: rgb(70, 69, 69);
+  border-radius: 8px;
+  border: 4px solid yellow;
+  padding: 4px;
+}
+
+.film-cart-info {
+  position: relative;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  line-height: 22px;
+  margin: 5px 0;
+}
+
+.film-cart-name {
+  color: #fff;
+  margin: 0;
+}
+
+.film-cart-genre {
+  color: rgb(249, 208, 71);
+  padding: 5px 0;
+  margin: 0;
+  font-size: smaller;
+  font-style: italic;
+}

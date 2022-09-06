@@ -1,0 +1,67 @@
+.film-about {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 30px;
+  line-height: 38px;
+  margin: 20px;
+}
+
+.film-button {
+  align-self: flex-start;
+  background: rgba(6, 6, 6, 0);
+  border: none;
+  display: block;
+}
+
+.film-button:hover {
+  color: rgb(250, 230, 47);
+  cursor: pointer;
+}
+
+.film-info-list {
+  background: rgb(36, 36, 36);
+}
+
+.film-award-start {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.film-award p {
+  margin: 8px 0;
+  padding:  0 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.film-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button {
+  background: rgb(36, 36, 36, 0);
+  margin: 10px 4px;
+  font-size: 26px;
+  line-height: 28px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  transition: 0.6s ease;
+  color: rgb(249, 208, 71);
+  text-shadow: 6px 0 3px black;
+}
+
+.button-down {
+  transform: rotate(90deg);
+}
+
+.button-up {
+  transform: rotate(-90deg);
+}
+
+
+

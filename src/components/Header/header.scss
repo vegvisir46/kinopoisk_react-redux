@@ -1,0 +1,147 @@
+@import '~antd/dist/antd.css';
+
+.header-wrapper {
+  background: rgb(36, 36, 36);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background: rgb(36, 36, 36);
+  font-size: 32px;
+  line-height: 36px;
+  color: #fff;
+}
+
+.header a {
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
+}
+
+.header-menu img {
+  width: 32px;
+  height: 32px;
+  padding-right: 5px;
+  text-align: center;
+  line-height: 0;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.header-menu p {
+  margin: 0;
+  display: none;
+}
+
+.header-menu-list {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: 0;
+  list-style: none;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  background: rgb(64, 64, 64);
+  padding: 0;
+}
+
+.header-menu-item {
+  display: flex;
+  justify-content: right;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.header-menu-item:hover {
+  background: rgb(82, 82, 82);
+}
+
+.header-menu:hover {
+  background: rgb(64, 64, 64);
+}
+
+.header-menu:hover .header-menu-list {
+  display: block;
+}
+
+.choice a {
+  text-decoration: underline;
+  text-decoration-color: rgb(145, 133, 28);
+}
+
+@media (min-width: 360px) {
+  .header {
+    height: 60px;
+    justify-content: space-around;
+  }
+
+  .header-seach {
+    max-width: 320px;
+  }
+}
+
+@media (min-width: 500px) {
+  .header {
+    height: 80px;
+    justify-content: space-around;
+  }
+
+  .header-menu {
+    padding: 0;
+  }
+
+  .header-seach {
+    min-width: 300px;
+    max-width: 420px;
+  }
+}
+
+@media (min-width: 760px) {
+  .header {
+    height: 80px;
+    justify-content: space-around;
+  }
+
+  .header-menu-list {
+    width: 213px;
+  }
+
+  .header-menu p {
+    display: block;
+  }
+
+  .header-seach {
+    max-width: 500px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    height: 100px;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .header-seach {
+    min-width: 600px;
+    max-width: 700px;
+  }
+}

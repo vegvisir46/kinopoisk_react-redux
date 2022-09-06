@@ -1,0 +1,47 @@
+.film-season {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.film-season-start {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.film-season-start p {
+  margin: 8px 0;
+  padding:  0 10px;
+  font-size: 20px;
+  text-align: left;
+}
+
+.season-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  text-align: left;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.season-block p {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.season-block-item {
+  width: 100%;
+}
+
+.season-table {
+  margin: 10px;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td  {
+  padding: 8px;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 8px 0;
+}

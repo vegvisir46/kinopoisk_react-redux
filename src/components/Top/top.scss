@@ -1,0 +1,42 @@
+.top-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 1200px;
+  background: rgb(70, 69, 69);
+  margin: 0 auto;
+}
+
+.top-empty {
+  height: 20px;
+}
+
+.top-empty-footer {
+  min-height: 20px;
+  flex-grow: 1;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pagination {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 360px) {
+  .top-wrapper {
+    width: 100%;
+    min-height: 100%;
+  }
+}
+
+@media (min-width: 580px) {
+  .top {
+    justify-content: left;
+    margin-left: 20px;
+    min-height: 100vh;
+  }
+}

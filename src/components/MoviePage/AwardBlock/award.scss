@@ -1,0 +1,32 @@
+.film-award {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.award-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.award-table {
+  margin: 0 10px;
+  width: 100%;
+}
+
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td, .ant-table tfoot > tr > th, .ant-table tfoot > tr > td  {
+  padding: 8px;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin: 8px 0;
+}
+
+.item-name {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.item-name:hover {
+  color: rgb(249, 208, 71);
+}

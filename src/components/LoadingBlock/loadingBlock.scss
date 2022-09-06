@@ -1,0 +1,16 @@
+.loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 36px;
+  line-height: 40px;
+  padding: 10px;
+  color: #fff;
+  min-height: 100vh;
+}
+
+.loading img {
+  width: calc(50%);
+}

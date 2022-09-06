@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (min-width: 360px) {
+  .content {
+    height: 100%;
+  }
+}

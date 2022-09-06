@@ -1,0 +1,170 @@
+.person-page-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  background-color: rgb(87, 87, 87);
+  margin: 0 auto;
+}
+
+.person-page-empty {
+  min-height: 20px;
+  width: 100%;
+}
+
+.person-page-empty-footer {
+  min-height: 20px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.person-page-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-page-image-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.person-page-info {
+  display: flex;
+  flex-direction: column;  
+  width: 320px;
+  font-size: 26px;
+  line-height: 30px;
+  text-align: center;
+  margin: 10px 0;
+  padding: 5px;
+}
+
+.person-page-name {
+  color: #fff;
+  margin: 0;
+}
+
+.person-page-profession {
+  color: rgb(249, 208, 71);
+  padding: 5px 0;
+  margin: 0;
+  font-size: smaller;
+  font-style: italic;
+}
+
+.person-page-textcontent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background: linear-gradient(#000, rgb(87, 87, 87));
+}
+
+.person-about {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.person-about-item {
+  display: flex;
+  padding: 4px;
+  margin: 4px;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.person-about-item p {
+  min-width: 200px;
+  margin: 0;
+  color: rgb(207, 206, 206);
+}
+
+.person-about-item span {
+  font-style: italic;
+  color: rgb(249, 208, 71);
+}
+
+.person-films {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  flex-grow: 1;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.person-films-start {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.person-films-start p {
+  margin: 8px 0;
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.award-table {
+  margin: 0 10px;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.item-name {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.item-name:hover {
+  color: rgb(249, 208, 71);
+}
+
+@media (min-width: 360px) {
+  .person-page-wrapper {
+    min-height: 100vh;
+  }
+  .person-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    flex-grow: 1;
+  }
+  .person-page-textcontent {
+    flex-direction: column;
+    margin: 0 20px;
+  }
+}
+
+@media (min-width: 580px) {
+  .person-page-wrapper {
+    min-height: 100%;
+  }
+}
+
+@media (min-width: 760px) {
+  .person-page-main {
+    height: 100%;
+  }
+  .person-page {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+  .person-page-image-block {
+    margin-left: 20px;
+  }
+
+  .person-page-textcontent {
+    height: 100%;
+  }
+}

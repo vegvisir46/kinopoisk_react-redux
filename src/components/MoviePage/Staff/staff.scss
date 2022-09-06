@@ -1,0 +1,88 @@
+.film-staff {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 28px;
+  padding: 0 5px;
+  align-items: flex-start;
+  color: rgb(207, 206, 206);
+  width: 100%;
+}
+
+.film-staff-start {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.film-staff-start p {
+  margin: 8px 0;
+  padding: 0 10px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.staff-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.staff-block-item {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  line-height: 24px;
+  width: 50%;
+  flex-grow: 1;
+  padding: 5px;
+  padding-left: 10px;
+}
+
+.staff-block-item a {
+  display: flex;
+  flex-wrap: wrap;
+  text-decoration: none;
+  color: #fff;
+}
+
+.staff-block-item a:hover,
+.staff-block-item a:focus {
+  color: rgb(249, 208, 71);
+}
+
+.staff-block-item a p {
+  margin: 0;
+  text-align: left;
+}
+
+.pagination {
+  margin: 10px auto;
+  background: rgb(87, 87, 87);
+}
+
+@media (min-width: 360px) {
+  .film-staff-item p  {
+    text-align: left;
+    margin: 2px 0;
+  }
+  
+  .film-staff-item span {
+    text-align: right;
+  }
+}
+
+@media (min-width: 580px) {
+  .film-staff-item {
+    justify-content: left;
+  }
+  .film-staff-item p  {
+    width: 200px;
+  }
+  
+  .film-staff-item span {
+    width: 150px;
+  }
+}
