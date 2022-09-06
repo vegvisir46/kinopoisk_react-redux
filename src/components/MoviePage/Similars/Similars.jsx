@@ -61,7 +61,7 @@ function Similars({id}) {
            ?<a className="previous" onClick={onClickpreviousSlide}>&#10094;</a> 
            : ''}
           {similars.length>3 
-            ?<Link  to={{pathname: `/films/${similars[prevplusImgIndex].filmId}`}}
+            ?<Link  to={{pathname: `/kinopoisk_react-redux/films/${similars[prevplusImgIndex].filmId}`}}
               key={prevplusImgIndex} className='film-slider-link'
               >
               <FilmCartMenu
@@ -73,7 +73,7 @@ function Similars({id}) {
                 id={similars[prevplusImgIndex].filmId}/>
             </Link>
             : ''}
-          <Link  to={{pathname: `/films/${similars[prevImgIndex].filmId}`}}
+          <Link  to={{pathname: `/kinopoisk_react-redux/films/${similars[prevImgIndex].filmId}`}}
             key={prevImgIndex} className='film-slider-link'
             >
             <FilmCartMenu
